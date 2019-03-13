@@ -1,6 +1,6 @@
 solveSystem <- function(equationX, equationY, X0, Y0, t0=0, tf=30, h=0.01, ...) {
 
-	## function to solve a system of two differential equations
+	## function to plot a phase plane for a system of two differential equations
   
   	## input values
 	## equationX: text representing dX/dt
