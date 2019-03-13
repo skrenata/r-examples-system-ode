@@ -22,7 +22,7 @@ solveQuestion <- function(r=10, k=10, w=1, b=1, m=1, V0=3, H0=3) {
   
 	## define parameters for numerical solution
 	t0 <- 0 ## initial time
-	tf <- 100 ## final time
+	tf <- 50 ## final time
 	h <- 0.01 ## time step
 	N <- (tf - t0)/h ## total number of steps
 	V <- c(V0, rep(0,N)) ## array to keep solutions for V(t)
