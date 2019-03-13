@@ -50,6 +50,7 @@ solveQuestion <- function(r=10, k=10, w=1, b=1, m=1, V0=3, H0=3) {
 	title(main="Phase plane",  xlab = "Vegetation biomass", ylab = "Herbivore density")
 	text(max(V)-1,max(H)-1, paste0("Parameters: ", "r=",r, ", k=",k, ", w=",w, ", b=",b, ", m=",m, 
 									 "\nCondition k > m/(b*w): ", k > m/(b*w)))
+	points(V[N+1], H[N+1], col="green", lwd=2)
 	
 	## V nullclines
 	abline(v=0, col="red")
