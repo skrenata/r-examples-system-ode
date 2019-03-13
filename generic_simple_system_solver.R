@@ -2,7 +2,7 @@ solveSystem <- function(equationX, equationY, X0, Y0, t0=0, tf=30, h=0.01, ...) 
 
 	## function to solve a system of two differential equations
   
-  ## input values
+  	## input values
 	## equationX: text representing dX/dt
 	## equationY: text representing dY/dt
 	## X0, Y0: initial values for X(t), Y(t)
