@@ -18,7 +18,7 @@ g <- function(V,H,r,k,w,b,m){
 }
 
 solveQuestion <- function(r=10, k=10, w=1, b=1, m=1, V0=3, H0=3) {
-	## main function to solve system
+	## main function to plot phase plane
   
 	## define parameters for numerical solution
 	t0 <- 0 ## initial time
