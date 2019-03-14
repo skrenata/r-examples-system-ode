@@ -12,8 +12,8 @@ solveSystem <- function(equationX, equationY, X0, Y0, t0=0, tf=30, h=0.01, ...) 
 	
 	## define parameters for numerical solution
 	N <- (tf - t0)/h ## total number of steps
-	Xall <- c(X0, rep(0,N)) ## array to keep solutions for V(t)
-	Yall <- c(Y0, rep(0,N)) ## array to keep solutions for H(t)
+	Xall <- c(X0, rep(0,N)) ## array to keep solutions for X(t)
+	Yall <- c(Y0, rep(0,N)) ## array to keep solutions for Y(t)
 	
 	for(j in 1:N){
 		## main loop to calculate approximate solutions
