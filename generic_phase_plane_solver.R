@@ -6,6 +6,7 @@ solveSystem <- function(equationX, equationY, X0, Y0, t0=0, tf=30, h=0.01, ...) 
 	## equationX: text representing dX/dt
 	## equationY: text representing dY/dt
 	## X0, Y0: initial values for X(t), Y(t)
+	## (note that you must use X and Y as your variables here)
 	## t0, tf: starting and ending times, default to t0=0, tf=100
 	## h: step in time to approximate solution, default to 0.01
 	## ... all parameters required
