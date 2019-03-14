@@ -4,6 +4,8 @@
 ## first, load generic_simple_system_solver.R (either copy-paste or source)
 ## then, provide the equations you want to solve (as a text string), and the
 ## numeric values of the parameters and initial conditions
+## note that you should use X and Y as your variables, using different letters
+## is not possible in the current function
 
 ## it is less pretty than the specific function (as it won't show the nullclines
 ## or hold fixed axis), but it gives you more flexibility to define your system
