@@ -40,7 +40,7 @@ solveSystem <- function(equationX, equationY, X0, Y0, t0=0, tf=30, h=0.01, ...) 
 	}
 	
 	## plot results
-	plot(Xall, Yall, type = "l", lwd=2, xlab = "", ylab = "", xlim = c(0,max(Xall)), ylim = c(0,max(Yall)))
+	plot(Xall, Yall, type = "l", lwd=2, xlab = "", ylab = "", xlim = c(min(Xall),max(Xall)), ylim = c(min(Xall),max(Yall)))
 	title(main="Phase plane",  xlab = "X(t)", ylab = "Y(t)")
 	points(Xall[N+1], Yall[N+1], col="green", lwd=2)
 }
